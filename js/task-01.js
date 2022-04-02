@@ -1,7 +1,7 @@
 "use strict";
 const listWithId = document.querySelector("#categories");
-console.log('Number of categories:', listWithId.children.length);
 const elements = listWithId.children;
+console.log('Number of categories:', elements.length);
 for (let i = 0; i < elements.length; i += 1) {
     const element = elements[i];
     console.log('Category:', element.firstElementChild.textContent)
